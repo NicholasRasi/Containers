@@ -67,14 +67,11 @@
 ## Containers for HPC
 ### Charliecloud
 - **Description:** Charliecloud provides user-defined software stacks (UDSS) for high-performance computing (HPC) centers.
-- **Link:** [https://hpc.github.io/charliecloud/index.html](https://hpc.github.io/charliecloud/index.html)
-- **Paper / Documentation:** [https://www.usenix.org/system/files/login/articles/login_fall17_03_priedhorsky.pdf](https://www.usenix.org/system/files/login/articles/login_fall17_03_priedhorsky.pdf) [https://github.com/hpc/charliecloud](https://github.com/hpc/charliecloud) [paper](/papers/3126908.3126925.pdf)
-- [**Detailed Info**](/detail/charliecloud.md)
+- [**Detailed Info**](/reports/charliecloud.md)
 
 ### Shifter
 - **Description:** Shifter enables container images for HPC. In a nutshell, Shifter allows an HPC system to efficiently and safely allow end-users to run a docker image. Shifter consists of a few moving parts 1) a utility that typically runs on the compute node that creates the run time environment for the application 2) an image gateway service that pulls images from a registry and repacks it in a format suitable for the HPC system (typically squashfs) 3) and example scripts/plugins to integrate Shifter with various batch scheduler systems.
-- **Link:** [https://www.nersc.gov/research-and-development/user-defined-images/](https://www.nersc.gov/research-and-development/user-defined-images/)
-- **Paper / Documentation:** [https://github.com/NERSC/shifter](https://github.com/NERSC/shifter) [https://docs.nersc.gov/programming/shifter/overview/](https://docs.nersc.gov/programming/shifter/overview/)
+- [**Detailed Info**](/reports/shifter.md)
 
 ### Singularity
 - **Description:** enabling and securing your performance critical applications from the core, through the cloud, and out to the edge.
