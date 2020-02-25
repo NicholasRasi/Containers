@@ -75,8 +75,7 @@
 
 ### Singularity
 - **Description:** enabling and securing your performance critical applications from the core, through the cloud, and out to the edge.
-- **Link:** [https://sylabs.io/](https://sylabs.io/)
-- **Paper / Documentation:** [https://github.com/sylabs/singularity](https://github.com/sylabs/singularity) [https://sylabs.io/assets/white-papers/2018_Year-End_White_Paper_FINAL.pdf](https://sylabs.io/assets/white-papers/2018_Year-End_White_Paper_FINAL.pdf)
+- [**Detailed Info**](/reports/singularity.md)
 
 ### Sarus
 - **Description:** Sarus is a software to run Linux containers on High Performance Computing environments. Its development has been driven by the specific requirements of HPC systems, while leveraging open standards and technologies to encourage vendor and community involvement.

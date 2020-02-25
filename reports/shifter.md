@@ -1,4 +1,8 @@
 # Shifter
+<img src="https://img.shields.io/github/stars/NERSC/shifter">
+<img src="https://img.shields.io/github/forks/NERSC/shifter">
+<img src="https://img.shields.io/github/issues/NERSC/shifter">
+
 NERSC has developed and supports Shifter to enable users to securely run Docker images on NERSC systems at scale. A user can use Shifter to easily pull down an image from a registry like DockerHub and then run that image on systems.
 
 Design Goals:
@@ -40,7 +44,7 @@ ERROR: failed to contact the image gateway.
 
 ### System Requirements and Permissions
 
-### Tools Availability
+### Available Tools
 Components:
 
 - Shifter Image Gateway: Imports and converts images from DockerHub and Private Registries

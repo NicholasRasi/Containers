@@ -1,4 +1,8 @@
 # Charliecloud
+<img src="https://img.shields.io/github/stars/hpc/charliecloud">
+<img src="https://img.shields.io/github/forks/hpc/charliecloud">
+<img src="https://img.shields.io/github/issues/hpc/charliecloud">
+
 Charliecloud provides user-defined software stacks (UDSS) for high-performance computing (HPC) centers. This "bring your own software stack" functionality addresses needs such as:
 
 - software dependencies that are numerous, complex, unusual, differently configured, or simply newer/older than what the center provides;
@@ -35,7 +39,7 @@ Charliecloud can be installed from sources and is available using a variety of d
 - it exploits Docker features such as image building and image sharing
 - it exploits the sixth namespace, *user*, was added in Linux 3.8 and the following few releases. Its goal is to give unprivileged processes access to traditionally privileged functionality in specific contexts when doing so is safe. The first process in a new user namespace has all capabilities in the new namespace, but none in the parent user namespace, even if created by root. Thus, processes and kernel resources inside the user namespace can be manipulated arbitrarily, but only in ways that do not affect the parent namespace (i.e, the host)
 
-### Tools Availability
+### Available Tools
 - Charliecloud is a collection of five shell scripts and two C programs totaling roughly 900 lines of code. For comparison, NsJail is 4,000 lines, Singularity 11,000, Shifter 19,000, and Docker 133,000
 - [Charlieclouds commands](https://hpc.github.io/charliecloud/command-usage.html#)
 
