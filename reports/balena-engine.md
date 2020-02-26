@@ -1,4 +1,8 @@
 # Balena Engine
+<img src="https://img.shields.io/github/stars/balena-os/balena-engine">
+<img src="https://img.shields.io/github/forks/balena-os/balena-engine">
+<img src="https://img.shields.io/github/issues/balena-os/balena-engine">
+
 balenaEngine is a new container engine purpose-built for embedded and IoT use cases and compatible with Docker containers. Based on Docker’s Moby Project, balenaEngine supports container deltas for 10-70x more efficient bandwidth usage, has 3x smaller binaries, uses RAM and storage more conservatively, and focuses on atomicity and durability of container pulling.
 
 Features:
