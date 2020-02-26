@@ -65,27 +65,25 @@
 - **Paper / Documentation:** [https://github.com/cri-o/cri-o](https://github.com/cri-o/cri-o)
 
 ## Containers for HPC
-### Charliecloud
-- **Description:** Charliecloud provides user-defined software stacks (UDSS) for high-performance computing (HPC) centers.
-- [**Detailed Info**](/reports/charliecloud.md)
+### Singularity
+- **Description:** enabling and securing your performance critical applications from the core, through the cloud, and out to the edge.
+- [**Report**](/reports/singularity.md)
 
 ### Shifter
 - **Description:** Shifter enables container images for HPC. In a nutshell, Shifter allows an HPC system to efficiently and safely allow end-users to run a docker image. Shifter consists of a few moving parts 1) a utility that typically runs on the compute node that creates the run time environment for the application 2) an image gateway service that pulls images from a registry and repacks it in a format suitable for the HPC system (typically squashfs) 3) and example scripts/plugins to integrate Shifter with various batch scheduler systems.
-- [**Detailed Info**](/reports/shifter.md)
+- [**Report**](/reports/shifter.md)
 
-### Singularity
-- **Description:** enabling and securing your performance critical applications from the core, through the cloud, and out to the edge.
-- [**Detailed Info**](/reports/singularity.md)
+### Charliecloud
+- **Description:** Charliecloud provides user-defined software stacks (UDSS) for high-performance computing (HPC) centers.
+- [**Report**](/reports/charliecloud.md)
 
 ### Sarus
 - **Description:** Sarus is a software to run Linux containers on High Performance Computing environments. Its development has been driven by the specific requirements of HPC systems, while leveraging open standards and technologies to encourage vendor and community involvement.
-- **Link:** [https://github.com/eth-cscs/sarus](https://github.com/eth-cscs/sarus)
-- **Paper / Documentation:** [http://www.hpcadvisorycouncil.com/events/2019/swiss-workshop/pdf/030419/K_Mariotti_CSCS_SARUS_OCI_ContainerRuntime_04032019.pdf](http://www.hpcadvisorycouncil.com/events/2019/swiss-workshop/pdf/030419/K_Mariotti_CSCS_SARUS_OCI_ContainerRuntime_04032019.pdf)
+- [**Report**](/reports/sarus.md)
 
-### Ubercloud
+### Ubercloud (not opensource)
 - **Description:** UberCloud is the online community and marketplace where engineers, scientists, and their service providers discover, try, and buycompute power as a Service, from computing clouds and even from Supercomputing Centers around the world.
-- **Link:** [https://www.theubercloud.com/containers](https://www.theubercloud.com/containers) [http://info.theubercloud.com/kubernetes-ubercloud-containers-and-hpc](http://info.theubercloud.com/kubernetes-ubercloud-containers-and-hpc)
-- **Paper / Documentation:** [paper](papers/UberCloud_Container_WhitePaper.pdf)
+- [**Report**](/reports/ubercloud.md)
 
 
 ## Containers for IoT
