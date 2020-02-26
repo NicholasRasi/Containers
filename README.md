@@ -91,11 +91,13 @@ Firecracker is an open source virtualization technology that is purpose-built fo
 - [https://firecracker-microvm.github.io/](https://firecracker-microvm.github.io/)
 - [**Report**](/reports/firecracker.md)
 
-
 ### OSv
-- **Description:** OSv is the versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud. Built from the ground up for effortless deployment and management of micro-services and serverless apps, with superior performance.
-- **Link:** [http://osv.io/](http://osv.io/)
-- **Paper / Documentation:** [https://github.com/cloudius-systems/osv](https://github.com/cloudius-systems/osv)
+<img src="http://osv.io/images/logo.jpg" height=100></br>
+<img src="https://img.shields.io/github/stars/cloudius-systems/osv">
+
+OSv is the versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud. Built from the ground up for effortless deployment and management of micro-services and serverless apps, with superior performance.
+- [http://osv.io/](http://osv.io/)
+- [**Report**](/reports/osv.md)
 
 ### Istio
 - **Description:** Developers must use microservices to architect for portability, meanwhile operators are managing extremely large hybrid and multi-cloud deployments. Istio lets you connect, secure, control, and observe services. At a high level, Istio helps reduce the complexity of these deployments, and eases the strain on your development teams. It is a completely open source service mesh that layers transparently onto existing distributed applications. It is also a platform, including APIs that let it integrate into any logging platform, or telemetry or policy system. Istio’s diverse feature set lets you successfully, and efficiently, run a distributed microservice architecture, and provides a uniform way to secure, connect, and monitor microservices.
