@@ -1,4 +1,37 @@
 # Containers
+- [Containers](#containers)
+  - [HPC](#hpc)
+    - [Singularity](#singularity)
+    - [Shifter](#shifter)
+    - [Charliecloud](#charliecloud)
+    - [Sarus](#sarus)
+    - [Ubercloud](#ubercloud)
+  - [IoT](#iot)
+    - [Balena Engine](#balena-engine)
+  - [Micro VMs / Micro-services](#micro-vms--micro-services)
+    - [Firecracker](#firecracker)
+    - [OSv](#osv)
+    - [Istio](#istio)
+    - [CoreOS (End-of-life)](#coreos-end-of-life)
+  - [Container Runtime](#container-runtime)
+    - [runc](#runc)
+    - [Kata Containers](#kata-containers)
+    - [gVisor](#gvisor)
+    - [containerd](#containerd)
+    - [LXC](#lxc)
+  - [Docker](#docker)
+    - [udocker](#udocker)
+  - [Kubernetes / Distribution](#kubernetes--distribution)
+    - [CNAB: Cloud Native Application Bundles](#cnab-cloud-native-application-bundles)
+    - [Mobyproject](#mobyproject)
+    - [Weave Works](#weave-works)
+    - [CoreOS Operator Framework](#coreos-operator-framework)
+    - [Rancher](#rancher)
+    - [CRI-O](#cri-o)
+  - [OpenStack](#openstack)
+    - [Kolla](#kolla)
+  - [Container Registry](#container-registry)
+    - [Harbor](#harbor)
 
 ## HPC
 ### Singularity
@@ -32,10 +65,10 @@ Sarus is a software to run Linux containers on High Performance Computing enviro
 - [https://github.com/eth-cscs/sarus](https://github.com/eth-cscs/sarus)
 - [**Report**](/reports/sarus.md)
 
-### Ubercloud (not opensource)
+### Ubercloud
 <img src="https://www.theubercloud.com/hs-fs/hubfs/Images/Logos/UberCloudLogo.png?width=177&name=UberCloudLogo.png">
 
-UberCloud is the online community and marketplace where engineers, scientists, and their service providers discover, try, and buycompute power as a Service, from computing clouds and even from Supercomputing Centers around the world.
+UberCloud (not opensource) is the online community and marketplace where engineers, scientists, and their service providers discover, try, and buycompute power as a Service, from computing clouds and even from Supercomputing Centers around the world.
 - [**Report**](/reports/ubercloud.md)
 
 
@@ -48,6 +81,27 @@ balenaEngine is a new container engine purpose-built for embedded and IoT use ca
 - [https://www.balena.io/engine/](https://www.balena.io/engine/)
 - [**Report**](/reports/balena-engine.md)
 
+
+## Micro VMs / Micro-services
+### Firecracker
+- **Description:** Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models. Firecracker runs workloads in lightweight virtual machines, called microVMs, which combine the security and isolation properties provided by hardware virtualization technology with the speed and flexibility of containers.
+- **Link:** [https://firecracker-microvm.github.io/](https://firecracker-microvm.github.io/)
+- **Paper / Documentation:** [https://github.com/firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker)
+
+### OSv
+- **Description:** OSv is the versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud. Built from the ground up for effortless deployment and management of micro-services and serverless apps, with superior performance.
+- **Link:** [http://osv.io/](http://osv.io/)
+- **Paper / Documentation:** [https://github.com/cloudius-systems/osv](https://github.com/cloudius-systems/osv)
+
+### Istio
+- **Description:** Developers must use microservices to architect for portability, meanwhile operators are managing extremely large hybrid and multi-cloud deployments. Istio lets you connect, secure, control, and observe services. At a high level, Istio helps reduce the complexity of these deployments, and eases the strain on your development teams. It is a completely open source service mesh that layers transparently onto existing distributed applications. It is also a platform, including APIs that let it integrate into any logging platform, or telemetry or policy system. Istio’s diverse feature set lets you successfully, and efficiently, run a distributed microservice architecture, and provides a uniform way to secure, connect, and monitor microservices.
+- **Link:** [https://istio.io/](https://istio.io/)
+- **Paper / Documentation:** [https://istio.io/docs/setup/getting-started/](https://istio.io/docs/setup/getting-started/)
+
+### CoreOS (End-of-life)
+- **Description:** Container Linux redefines the operating system as a smaller, more compact Linux distribution. Traditional distros package unused software that leads to dependency conflicts and needlessly increases the attack surface.
+- **Link:** [https://coreos.com/](https://coreos.com/)
+- **Paper / Documentation:** [https://coreos.com/os/docs/latest/](https://coreos.com/os/docs/latest/)
 
 ## Container Runtime
 ### runc
@@ -119,28 +173,6 @@ balenaEngine is a new container engine purpose-built for embedded and IoT use ca
 - **Description:** Kolla provides Docker containers, Ansible playbooks to deploy OpenStack on baremetal or virtual machine to meet Kolla's mission. Kolla has out of the box defaults for a working basic deployment, and also implements complete customization. This model permits operators with minimal experience to deploy OpenStack quickly and as the operator's experience grows modify the OpenStack configuration to suit the operator's exact requirements.
 - **Link:** [https://wiki.openstack.org/wiki/Kolla](https://wiki.openstack.org/wiki/Kolla)
 - **Paper / Documentation:** [https://opendev.org/openstack/kolla](https://opendev.org/openstack/kolla)
-
-
-## Micro VMs / Micro-services
-### Firecracker
-- **Description:** Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models. Firecracker runs workloads in lightweight virtual machines, called microVMs, which combine the security and isolation properties provided by hardware virtualization technology with the speed and flexibility of containers.
-- **Link:** [https://firecracker-microvm.github.io/](https://firecracker-microvm.github.io/)
-- **Paper / Documentation:** [https://github.com/firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker)
-
-### OSv
-- **Description:** OSv is the versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud. Built from the ground up for effortless deployment and management of micro-services and serverless apps, with superior performance.
-- **Link:** [http://osv.io/](http://osv.io/)
-- **Paper / Documentation:** [https://github.com/cloudius-systems/osv](https://github.com/cloudius-systems/osv)
-
-### Istio
-- **Description:** Developers must use microservices to architect for portability, meanwhile operators are managing extremely large hybrid and multi-cloud deployments. Istio lets you connect, secure, control, and observe services. At a high level, Istio helps reduce the complexity of these deployments, and eases the strain on your development teams. It is a completely open source service mesh that layers transparently onto existing distributed applications. It is also a platform, including APIs that let it integrate into any logging platform, or telemetry or policy system. Istio’s diverse feature set lets you successfully, and efficiently, run a distributed microservice architecture, and provides a uniform way to secure, connect, and monitor microservices.
-- **Link:** [https://istio.io/](https://istio.io/)
-- **Paper / Documentation:** [https://istio.io/docs/setup/getting-started/](https://istio.io/docs/setup/getting-started/)
-
-### CoreOS (End-of-life)
-- **Description:** Container Linux redefines the operating system as a smaller, more compact Linux distribution. Traditional distros package unused software that leads to dependency conflicts and needlessly increases the attack surface.
-- **Link:** [https://coreos.com/](https://coreos.com/)
-- **Paper / Documentation:** [https://coreos.com/os/docs/latest/](https://coreos.com/os/docs/latest/)
 
 
 ## Container Registry
