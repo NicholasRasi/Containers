@@ -1,5 +1,51 @@
 # Containers
 
+## Containers for HPC
+### Singularity
+<img src="https://sylabs.io/assets/svg/singularity-logo.svg" height=100></br>
+<img src="https://img.shields.io/github/stars/sylabs/singularity">
+
+Enabling and securing your performance critical applications from the core, through the cloud, and out to the edge.
+- [https://sylabs.io/](https://sylabs.io/)
+- [**Report**](/reports/singularity.md)
+
+### Shifter
+<img src="https://raw.githubusercontent.com/wiki/NERSC/shifter/images/shifter_logo.png" height=100></br>
+<img src="https://img.shields.io/github/stars/NERSC/shifter">
+
+Shifter enables container images for HPC. In a nutshell, Shifter allows an HPC system to efficiently and safely allow end-users to run a docker image.
+- [https://github.com/NERSC/shifter](https://github.com/NERSC/shifter)
+- [**Report**](/reports/shifter.md)
+
+### Charliecloud
+<img src="https://hpc.github.io/charliecloud/_static/logo-sidebar.png" height=100></br>
+<img src="https://img.shields.io/github/stars/hpc/charliecloud">
+
+Charliecloud provides user-defined software stacks (UDSS) for high-performance computing (HPC) centers.
+- [https://hpc.github.io/charliecloud/index.html](https://hpc.github.io/charliecloud/index.html)
+- [**Report**](/reports/charliecloud.md)
+
+### Sarus
+<img src="https://img.shields.io/github/stars/eth-cscs/sarus">
+
+Sarus is a software to run Linux containers on High Performance Computing environments. Its development has been driven by the specific requirements of HPC systems, while leveraging open standards and technologies to encourage vendor and community involvement.
+- [https://github.com/eth-cscs/sarus](https://github.com/eth-cscs/sarus)
+- [**Report**](/reports/sarus.md)
+
+### Ubercloud (not opensource)
+<img src="https://www.theubercloud.com/hs-fs/hubfs/Images/Logos/UberCloudLogo.png?width=177&name=UberCloudLogo.png">
+
+UberCloud is the online community and marketplace where engineers, scientists, and their service providers discover, try, and buycompute power as a Service, from computing clouds and even from Supercomputing Centers around the world.
+- [**Report**](/reports/ubercloud.md)
+
+
+## Containers for IoT
+### Balena OS
+- **Description:** balenaEngine is a new container engine purpose-built for embedded and IoT use cases and compatible with Docker containers. Based on Docker’s Moby Project, balenaEngine supports container deltas for 10-70x more efficient bandwidth usage, has 3x smaller binaries, uses RAM and storage more conservatively, and focuses on atomicity and durability of container pulling.
+- **Link:** [https://www.balena.io/](https://www.balena.io/)
+- **Paper / Documentation:** [https://github.com/balena-os/balena-engine](https://github.com/balena-os/balena-engine)
+
+
 ## Container Runtime
 ### runc
 - **Description:** runc is a CLI tool for spawning and running containers according to the OCI specification.
@@ -63,35 +109,7 @@
 - **Description:** CRI-O is meant to provide an integration path between OCI conformant runtimes and the kubelet. Specifically, it implements the Kubelet Container Runtime Interface (CRI) using OCI conformant runtimes. The scope of CRI-O is tied to the scope of the CRI.
 - **Link:** [https://cri-o.io/](https://cri-o.io/)
 - **Paper / Documentation:** [https://github.com/cri-o/cri-o](https://github.com/cri-o/cri-o)
-
-## Containers for HPC
-### Singularity
-- **Description:** enabling and securing your performance critical applications from the core, through the cloud, and out to the edge.
-- [**Report**](/reports/singularity.md)
-
-### Shifter
-- **Description:** Shifter enables container images for HPC. In a nutshell, Shifter allows an HPC system to efficiently and safely allow end-users to run a docker image. Shifter consists of a few moving parts 1) a utility that typically runs on the compute node that creates the run time environment for the application 2) an image gateway service that pulls images from a registry and repacks it in a format suitable for the HPC system (typically squashfs) 3) and example scripts/plugins to integrate Shifter with various batch scheduler systems.
-- [**Report**](/reports/shifter.md)
-
-### Charliecloud
-- **Description:** Charliecloud provides user-defined software stacks (UDSS) for high-performance computing (HPC) centers.
-- [**Report**](/reports/charliecloud.md)
-
-### Sarus
-- **Description:** Sarus is a software to run Linux containers on High Performance Computing environments. Its development has been driven by the specific requirements of HPC systems, while leveraging open standards and technologies to encourage vendor and community involvement.
-- [**Report**](/reports/sarus.md)
-
-### Ubercloud (not opensource)
-- **Description:** UberCloud is the online community and marketplace where engineers, scientists, and their service providers discover, try, and buycompute power as a Service, from computing clouds and even from Supercomputing Centers around the world.
-- [**Report**](/reports/ubercloud.md)
-
-
-## Containers for IoT
-### Balena OS
-- **Description:** balenaEngine is a new container engine purpose-built for embedded and IoT use cases and compatible with Docker containers. Based on Docker’s Moby Project, balenaEngine supports container deltas for 10-70x more efficient bandwidth usage, has 3x smaller binaries, uses RAM and storage more conservatively, and focuses on atomicity and durability of container pulling.
-- **Link:** [https://www.balena.io/](https://www.balena.io/)
-- **Paper / Documentation:** [https://github.com/balena-os/balena-engine](https://github.com/balena-os/balena-engine)
-
+- 
 
 ## OpenStack
 ### Kolla

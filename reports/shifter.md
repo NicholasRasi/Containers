@@ -3,6 +3,8 @@
 <img src="https://img.shields.io/github/forks/NERSC/shifter">
 <img src="https://img.shields.io/github/issues/NERSC/shifter">
 
+Shifter enables container images for HPC. In a nutshell, Shifter allows an HPC system to efficiently and safely allow end-users to run a docker image. Shifter consists of a few moving parts 1) a utility that typically runs on the compute node that creates the run time environment for the application 2) an image gateway service that pulls images from a registry and repacks it in a format suitable for the HPC system (typically squashfs) 3) and example scripts/plugins to integrate Shifter with various batch scheduler systems
+
 NERSC has developed and supports Shifter to enable users to securely run Docker images on NERSC systems at scale. A user can use Shifter to easily pull down an image from a registry like DockerHub and then run that image on systems.
 
 Design Goals:
