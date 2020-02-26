@@ -1,6 +1,6 @@
 # Containers
 
-## Containers for HPC
+## HPC
 ### Singularity
 <img src="https://sylabs.io/assets/svg/singularity-logo.svg" height=100></br>
 <img src="https://img.shields.io/github/stars/sylabs/singularity">
@@ -39,11 +39,14 @@ UberCloud is the online community and marketplace where engineers, scientists, a
 - [**Report**](/reports/ubercloud.md)
 
 
-## Containers for IoT
-### Balena OS
-- **Description:** balenaEngine is a new container engine purpose-built for embedded and IoT use cases and compatible with Docker containers. Based on Docker’s Moby Project, balenaEngine supports container deltas for 10-70x more efficient bandwidth usage, has 3x smaller binaries, uses RAM and storage more conservatively, and focuses on atomicity and durability of container pulling.
-- **Link:** [https://www.balena.io/](https://www.balena.io/)
-- **Paper / Documentation:** [https://github.com/balena-os/balena-engine](https://github.com/balena-os/balena-engine)
+## IoT
+### Balena Engine
+<img src="https://raw.githubusercontent.com/balena-os/balena-engine/master/docs/static_files/balena-engine.svg?sanitize=true" height=100></br>
+<img src="https://img.shields.io/github/stars/balena-os/balena-engine">
+
+balenaEngine is a new container engine purpose-built for embedded and IoT use cases and compatible with Docker containers.
+- [https://www.balena.io/engine/](https://www.balena.io/engine/)
+- [**Report**](/reports/balena-engine.md)
 
 
 ## Container Runtime
