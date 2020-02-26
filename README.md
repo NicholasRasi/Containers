@@ -84,9 +84,13 @@ balenaEngine is a new container engine purpose-built for embedded and IoT use ca
 
 ## Micro VMs / Micro-services
 ### Firecracker
-- **Description:** Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models. Firecracker runs workloads in lightweight virtual machines, called microVMs, which combine the security and isolation properties provided by hardware virtualization technology with the speed and flexibility of containers.
-- **Link:** [https://firecracker-microvm.github.io/](https://firecracker-microvm.github.io/)
-- **Paper / Documentation:** [https://github.com/firecracker-microvm/firecracker](https://github.com/firecracker-microvm/firecracker)
+<img src="https://firecracker-microvm.github.io/img/firecracker-logo@3x.png" height=100></br>
+<img src="https://img.shields.io/github/stars/hpc/charliecloud">
+
+Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models.
+- [https://firecracker-microvm.github.io/](https://firecracker-microvm.github.io/)
+- [**Report**](/reports/firecracker.md)
+
 
 ### OSv
 - **Description:** OSv is the versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud. Built from the ground up for effortless deployment and management of micro-services and serverless apps, with superior performance.
