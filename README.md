@@ -9,10 +9,10 @@
   - [IoT](#iot)
     - [Balena Engine](#balena-engine)
   - [Micro VMs / Micro-services](#micro-vms--micro-services)
-    - [Firecracker](#firecracker)
-    - [OSv](#osv)
     - [Istio](#istio)
-    - [CoreOS (End-of-life)](#coreos-end-of-life)
+    - [OSv](#osv)
+    - [Firecracker](#firecracker)
+    - [Fedora CoreOS (previously CoreOS)](#fedora-coreos-previously-coreos)
   - [Container Runtime](#container-runtime)
     - [runc](#runc)
     - [Kata Containers](#kata-containers)
@@ -83,13 +83,13 @@ balenaEngine is a new container engine purpose-built for embedded and IoT use ca
 
 
 ## Micro VMs / Micro-services
-### Firecracker
-<img src="https://firecracker-microvm.github.io/img/firecracker-logo@3x.png" height=100></br>
-<img src="https://img.shields.io/github/stars/hpc/charliecloud">
+### Istio
+<img src="https://istio.io/img/logo.png" height=100></br>
+<img src="https://img.shields.io/github/stars/istio/istio">
 
-Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models.
-- [https://firecracker-microvm.github.io/](https://firecracker-microvm.github.io/)
-- [**Report**](/reports/firecracker.md)
+Istio is an open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data.
+- [https://istio.io/](https://istio.io/)
+- [**Report**](/reports/istio.md)
 
 ### OSv
 <img src="http://osv.io/images/logo.jpg" height=100></br>
@@ -99,18 +99,20 @@ OSv is the versatile modular unikernel designed to run unmodified Linux applicat
 - [http://osv.io/](http://osv.io/)
 - [**Report**](/reports/osv.md)
 
-### Istio
-<img src="https://istio.io/img/logo.png" height=100></br>
-<img src="https://img.shields.io/github/stars/istio/istio">
+### Firecracker
+<img src="https://firecracker-microvm.github.io/img/firecracker-logo@3x.png" height=100></br>
+<img src="https://img.shields.io/github/stars/hpc/charliecloud">
 
-Istio is an open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data.
-- [https://istio.io/](https://istio.io/)
-- [**Report**](/reports/istio.md)
+Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models.
+- [https://firecracker-microvm.github.io/](https://firecracker-microvm.github.io/)
+- [**Report**](/reports/firecracker.md)
 
-### CoreOS (End-of-life)
-- **Description:** Container Linux redefines the operating system as a smaller, more compact Linux distribution. Traditional distros package unused software that leads to dependency conflicts and needlessly increases the attack surface.
-- **Link:** [https://coreos.com/](https://coreos.com/)
-- **Paper / Documentation:** [https://coreos.com/os/docs/latest/](https://coreos.com/os/docs/latest/)
+### Fedora CoreOS (previously CoreOS)
+<img src="https://getfedora.org/static/images/logo-inline-coreos.png" height=100></br>
+
+Fedora CoreOS is an automatically updating, minimal, monolithic, container-focused operating system, designed for clusters but also operable standalone, optimized for Kubernetes but also great without it.
+- [https://getfedora.org/coreos/](https://getfedora.org/coreos/)
+- [**Report**](/reports/fedora-coreos.md)
 
 ## Container Runtime
 ### runc
