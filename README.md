@@ -18,11 +18,11 @@
     - [Firecracker](#firecracker)
     - [Fedora CoreOS (previously CoreOS)](#fedora-coreos-previously-coreos)
   - [Container Runtime](#container-runtime)
-    - [runc](#runc)
-    - [Kata Containers](#kata-containers)
     - [gVisor](#gvisor)
+    - [runc](#runc)
     - [containerd](#containerd)
     - [LXC](#lxc)
+    - [Kata Containers](#kata-containers)
   - [Kubernetes / Distribution](#kubernetes--distribution)
     - [CNAB: Cloud Native Application Bundles](#cnab-cloud-native-application-bundles)
     - [Mobyproject](#mobyproject)
@@ -30,6 +30,7 @@
     - [CoreOS Operator Framework](#coreos-operator-framework)
     - [Rancher](#rancher)
     - [CRI-O](#cri-o)
+    - [Nomad](#nomad)
   - [OpenStack](#openstack)
     - [Kolla](#kolla)
   - [Container Registry](#container-registry)
@@ -143,31 +144,39 @@ Fedora CoreOS is an automatically updating, minimal, monolithic, container-focus
 - [**Report**](/reports/fedora-coreos.md)
 
 ## Container Runtime
-### runc
-- **Description:** runc is a CLI tool for spawning and running containers according to the OCI specification.
-- **Link:** [https://www.opencontainers.org/](https://www.opencontainers.org/)
-- **Paper / Documentation:** [https://github.com/opencontainers/runc](https://github.com/opencontainers/runc)
-
-### Kata Containers
-- **Description:** Kata Containers is an open source community working to build a secure container runtime with lightweight virtual machines that feel and perform like containers, but provide stronger workload isolation using hardware virtualization technology as a second layer of defense.
-- **Link:** [https://katacontainers.io/](https://katacontainers.io/)
-- **Paper / Documentation:** [https://github.com/kata-containers/documentation](https://github.com/kata-containers/documentation)
-
 ### gVisor
-- **Description:** gVisor is a user-space kernel, written in Go, that implements a substantial portion of the Linux system surface. It includes an Open Container Initiative (OCI) runtime called runsc that provides an isolation boundary between the application and the host kernel. The runsc runtime integrates with Docker and Kubernetes, making it simple to run sandboxed containers.
-- **Link:** [https://gvisor.dev/](https://gvisor.dev/)
-- **Paper / Documentation:** [https://github.com/google/gvisor](https://github.com/google/gvisor)
+<img src="https://gvisor.dev/logo_huecc535c5c6d57d0972f257cbe0c4e09e_8387_70x70_fit_catmullrom_2.png"></br>
+<img src="https://img.shields.io/github/stars/google/gvisor">
+
+gVisor is a user-space kernel, written in Go, that implements a substantial portion of the Linux system surface. It includes an Open Container Initiative (OCI) runtime called runsc that provides an isolation boundary between the application and the host kernel. The runsc runtime integrates with Docker and Kubernetes, making it simple to run sandboxed containers.
+- [https://gvisor.dev/](https://gvisor.dev/)
+
+### runc
+<img src="https://img.shields.io/github/stars/opencontainers/runc">
+
+runc is a CLI tool for spawning and running containers according to the OCI specification.
+- [https://github.com/opencontainers/runc](https://github.com/opencontainers/runc)
 
 ### containerd
-- **Description:** containerd is an industry-standard container runtime with an emphasis on simplicity, robustness and portability. It is available as a daemon for Linux and Windows, which can manage the complete container lifecycle of its host system: image transfer and storage, container execution and supervision, low-level storage and network attachments, etc.
-- **Link:** [https://containerd.io/](https://containerd.io/)
-- **Paper / Documentation:** [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
+<img src="https://containerd.io/img/logos/navbar-light-logo.png"></br>
+<img src="https://img.shields.io/github/stars/containerd/containerd">
+
+containerd is an industry-standard container runtime with an emphasis on simplicity, robustness and portability. It is available as a daemon for Linux and Windows, which can manage the complete container lifecycle of its host system: image transfer and storage, container execution and supervision, low-level storage and network attachments, etc.
+- [https://containerd.io/](https://containerd.io/)
 
 ### LXC
-- **Description:** LXC is the well-known and heavily tested low-level Linux container runtime. It is in active development since 2008 and has proven itself in critical production environments world-wide. Some of its core contributors are the same people that helped to implement various well-known containerization features inside the Linux kernel.
-- **Link:** [https://linuxcontainers.org/lxc/](https://linuxcontainers.org/lxc/)
-- **Paper / Documentation:** [https://github.com/lxc/lxc](https://github.com/lxc/lxc)
+<img src="https://camo.githubusercontent.com/0e7ffe52374cc8d5edba8724bad029aaaf5e9029/68747470733a2f2f6c696e7578636f6e7461696e6572732e6f72672f7374617469632f696d672f636f6e7461696e6572732e706e67"></br>
+<img src="https://img.shields.io/github/stars/lxc/lxc">
 
+LXC is the well-known and heavily tested low-level Linux container runtime. It is in active development since 2008 and has proven itself in critical production environments world-wide. Some of its core contributors are the same people that helped to implement various well-known containerization features inside the Linux kernel.
+- [https://linuxcontainers.org/lxc/](https://linuxcontainers.org/lxc/)
+
+### Kata Containers
+<img src="https://katacontainers.io/assets/img/logo.a1e2d09a.svg"></br>
+<img src="https://img.shields.io/github/stars/kata-containers/runtime">
+
+Kata Containers is an open source community working to build a secure container runtime with lightweight virtual machines that feel and perform like containers, but provide stronger workload isolation using hardware virtualization technology as a second layer of defense.
+- [https://katacontainers.io/](https://katacontainers.io/)
 
 ## Kubernetes / Distribution
 ### CNAB: Cloud Native Application Bundles
@@ -199,6 +208,13 @@ Fedora CoreOS is an automatically updating, minimal, monolithic, container-focus
 - **Description:** CRI-O is meant to provide an integration path between OCI conformant runtimes and the kubelet. Specifically, it implements the Kubelet Container Runtime Interface (CRI) using OCI conformant runtimes. The scope of CRI-O is tied to the scope of the CRI.
 - **Link:** [https://cri-o.io/](https://cri-o.io/)
 - **Paper / Documentation:** [https://github.com/cri-o/cri-o](https://github.com/cri-o/cri-o)
+
+### Nomad
+<img src="https://raw.githubusercontent.com/hashicorp/nomad/19c404ca791d6ebe95a81738d7dc6623ab28564d/website/public/img/logo-hashicorp.svg?sanitize=true" height=100></br>
+<img src="https://img.shields.io/github/stars/hashicorp/nomad">
+
+Nomad is an easy-to-use, flexible, and performant workload orchestrator that can deploy a mix of microservice, batch, containerized, and non-containerized applications. Nomad is easy to operate and scale and has native Consul and Vault integrations.
+- [https://nomadproject.io/](https://nomadproject.io/)
 
 ## OpenStack
 ### Kolla
