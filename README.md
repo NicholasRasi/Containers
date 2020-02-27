@@ -210,9 +210,11 @@ Fedora CoreOS is an automatically updating, minimal, monolithic, container-focus
 
 ## Container Registry
 ### Harbor
-- **Description:** Harbor is an open source container image registry that secures images with role-based access control, scans images for vulnerabilities, and signs images as trusted. A CNCF Incubating project, Harbor delivers compliance, performance, and interoperability to help you consistently and securely manage images across cloud native compute platforms like Kubernetes and Docker.
-- **Link:** [https://goharbor.io/](https://goharbor.io/)
-- **Paper / Documentation:** [https://github.com/goharbor/harbor](https://github.com/goharbor/harbor)
+<img src="https://goharbor.io/img/logos/harbor-logo-white.svg" height=100></br>
+<img src="https://img.shields.io/github/stars/goharbor/harbor">
+
+Harbor is an open source container image registry that secures images with role-based access control, scans images for vulnerabilities, and signs images as trusted. A CNCF Incubating project, Harbor delivers compliance, performance, and interoperability to help you consistently and securely manage images across cloud native compute platforms like Kubernetes and Docker.
+- [https://goharbor.io/](https://goharbor.io/)
 
 ### skopeo
 <img src="https://camo.githubusercontent.com/19ba0305d59474c3cada4b65d5812c8c4c59465c/68747470733a2f2f63646e2e7261776769742e636f6d2f636f6e7461696e6572732f736b6f70656f2f6d61737465722f646f63732f736b6f70656f2e737667" height=100></br>
