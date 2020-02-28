@@ -16,7 +16,10 @@ Enter OSv - the operating system for the cloud. On the one hand, designed and op
 container, microVMs, function-based services
 
 ### Test
-Not opensource
+✅❓ [Capstan release 0.4.1](https://github.com/cloudius-systems/capstan/releases/tag/v0.4.1) on Ubuntu 18.04
+```
+capstan runs but there was problems with packaging NodeJS app
+```
 
 ### Compatibility
 - Language runtimes:
@@ -59,4 +62,5 @@ Not opensource
 ### Information
 - [http://osv.io/](http://osv.io/)
 - [https://github.com/cloudius-systems/osv](https://github.com/cloudius-systems/osv)
+- [capstan example](https://github.com/cloudius-systems/capstan-example)
 - [wiki](https://github.com/cloudius-systems/osv/wiki)
