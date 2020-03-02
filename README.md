@@ -8,16 +8,17 @@
     - [Ubercloud](#ubercloud)
   - [IoT](#iot)
     - [Balena Engine](#balena-engine)
+  - [Micro VMs / Micro-services](#micro-vms--micro-services)
+    - [Istio](#istio)
+    - [OSv](#osv)
+    - [Mirage OS](#mirage-os)
+    - [Firecracker](#firecracker)
+    - [Fedora CoreOS (previously CoreOS)](#fedora-coreos-previously-coreos)
   - [Containers Engine](#containers-engine)
     - [Podman](#podman)
     - [Docker](#docker)
     - [udocker](#udocker)
     - [Mobyproject](#mobyproject)
-  - [Micro VMs / Micro-services](#micro-vms--micro-services)
-    - [Istio](#istio)
-    - [OSv](#osv)
-    - [Firecracker](#firecracker)
-    - [Fedora CoreOS (previously CoreOS)](#fedora-coreos-previously-coreos)
   - [Container Runtime](#container-runtime)
     - [gVisor](#gvisor)
     - [runc](#runc)
@@ -31,11 +32,11 @@
     - [CoreOS Operator Framework](#coreos-operator-framework)
     - [CNAB: Cloud Native Application Bundles](#cnab-cloud-native-application-bundles)
     - [Weave Works](#weave-works)
-  - [OpenStack](#openstack)
-    - [Kolla](#kolla)
   - [Container Registry](#container-registry)
     - [Harbor](#harbor)
     - [skopeo](#skopeo)
+  - [Other / OpenStack](#other--openstack)
+    - [Kolla](#kolla)
   - [Useful Resources](#useful-resources)
 
 ## HPC
@@ -86,6 +87,45 @@ balenaEngine is a new container engine purpose-built for embedded and IoT use ca
 - [https://www.balena.io/engine/](https://www.balena.io/engine/)
 - [**Report**](/reports/balena-engine.md)
 
+## Micro VMs / Micro-services
+### Istio
+<img src="https://istio.io/img/logo.png" height="100"></br>
+<img src="https://img.shields.io/github/stars/istio/istio">
+
+Istio is an open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data.
+- [https://istio.io/](https://istio.io/)
+- [**Report**](/reports/istio.md)
+
+### OSv
+<img src="http://osv.io/images/logo.jpg" height="100"></br>
+<img src="https://img.shields.io/github/stars/cloudius-systems/osv">
+
+OSv is the versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud. Built from the ground up for effortless deployment and management of micro-services and serverless apps, with superior performance.
+- [http://osv.io/](http://osv.io/)
+- [**Report**](/reports/osv.md)
+
+### Mirage OS
+<img src="https://mirage.io/graphics/mirage-logo-small.png" height="100"></br>
+<img src="https://img.shields.io/github/stars/mirage/mirage">
+
+MirageOS is a library operating system that constructs unikernels for secure, high-performance network applications across a variety of cloud computing and mobile platforms
+- [https://mirage.io/](https://mirage.io/)
+- [**Report**](/reports/mirageos.md)
+
+### Firecracker
+<img src="https://firecracker-microvm.github.io/img/firecracker-logo@3x.png" height="100"></br>
+<img src="https://img.shields.io/github/stars/hpc/charliecloud">
+
+Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models.
+- [https://firecracker-microvm.github.io/](https://firecracker-microvm.github.io/)
+- [**Report**](/reports/firecracker.md)
+
+### Fedora CoreOS (previously CoreOS)
+<img src="https://getfedora.org/static/images/logo-inline-coreos.png" height="100"></br>
+
+Fedora CoreOS is an automatically updating, minimal, monolithic, container-focused operating system, designed for clusters but also operable standalone, optimized for Kubernetes but also great without it.
+- [https://getfedora.org/coreos/](https://getfedora.org/coreos/)
+- [**Report**](/reports/fedora-coreos.md)
 
 ## Containers Engine
 ### Podman
@@ -118,38 +158,6 @@ udocker is a basic user tool to execute simple docker containers in user space w
 Moby is an open framework created by Docker to assemble specialized container systems without reinventing the wheel. It provides a “lego set” of dozens of standard components and a framework for assembling them into custom platforms.
 - [https://mobyproject.org/](https://mobyproject.org/)
 - [**Report**](/reports/mobyproject.md)
-
-## Micro VMs / Micro-services
-### Istio
-<img src="https://istio.io/img/logo.png" height="100"></br>
-<img src="https://img.shields.io/github/stars/istio/istio">
-
-Istio is an open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data.
-- [https://istio.io/](https://istio.io/)
-- [**Report**](/reports/istio.md)
-
-### OSv
-<img src="http://osv.io/images/logo.jpg" height="100"></br>
-<img src="https://img.shields.io/github/stars/cloudius-systems/osv">
-
-OSv is the versatile modular unikernel designed to run unmodified Linux applications securely on micro-VMs in the cloud. Built from the ground up for effortless deployment and management of micro-services and serverless apps, with superior performance.
-- [http://osv.io/](http://osv.io/)
-- [**Report**](/reports/osv.md)
-
-### Firecracker
-<img src="https://firecracker-microvm.github.io/img/firecracker-logo@3x.png" height="100"></br>
-<img src="https://img.shields.io/github/stars/hpc/charliecloud">
-
-Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models.
-- [https://firecracker-microvm.github.io/](https://firecracker-microvm.github.io/)
-- [**Report**](/reports/firecracker.md)
-
-### Fedora CoreOS (previously CoreOS)
-<img src="https://getfedora.org/static/images/logo-inline-coreos.png" height="100"></br>
-
-Fedora CoreOS is an automatically updating, minimal, monolithic, container-focused operating system, designed for clusters but also operable standalone, optimized for Kubernetes but also great without it.
-- [https://getfedora.org/coreos/](https://getfedora.org/coreos/)
-- [**Report**](/reports/fedora-coreos.md)
 
 ## Container Runtime
 ### gVisor
@@ -230,12 +238,6 @@ Cloud Native Application Bundles (CNAB) are a package format specification that 
 Automate Enterprise Kubernetes the GitOps way. Operate and manage production ready Kubernetes with Weave Kubernetes Platform. GitOps unlocks cloud native agility, reliability and scalability.
 - [https://www.weave.works/](https://www.weave.works/)
 
-## OpenStack
-### Kolla
-Kolla provides Docker containers, Ansible playbooks to deploy OpenStack on baremetal or virtual machine to meet Kolla's mission. Kolla has out of the box defaults for a working basic deployment, and also implements complete customization. This model permits operators with minimal experience to deploy OpenStack quickly and as the operator's experience grows modify the OpenStack configuration to suit the operator's exact requirements.
-- [https://wiki.openstack.org/wiki/Kolla](https://wiki.openstack.org/wiki/Kolla)
-- [https://opendev.org/openstack/kolla](https://opendev.org/openstack/kolla)
-
 
 ## Container Registry
 ### Harbor
@@ -251,6 +253,12 @@ Harbor is an open source container image registry that secures images with role-
 
 skopeo is a command line utility that performs various operations on container images and image repositories. skopeo can work with OCI images as well as the original Docker v2 images.
 - [https://github.com/containers/skopeo](https://github.com/containers/skopeo)
+
+## Other / OpenStack
+### Kolla
+Kolla provides Docker containers, Ansible playbooks to deploy OpenStack on baremetal or virtual machine to meet Kolla's mission. Kolla has out of the box defaults for a working basic deployment, and also implements complete customization. This model permits operators with minimal experience to deploy OpenStack quickly and as the operator's experience grows modify the OpenStack configuration to suit the operator's exact requirements.
+- [https://wiki.openstack.org/wiki/Kolla](https://wiki.openstack.org/wiki/Kolla)
+- [https://opendev.org/openstack/kolla](https://opendev.org/openstack/kolla)
 
 ## Useful Resources
 - [The State of Linux Containers](http://www.hpcadvisorycouncil.com/events/2017/stanford-workshop/pdf/Christian_Kniep_StateOfContainers__02082017.pdf)
