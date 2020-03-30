@@ -70,5 +70,7 @@ Singularity uses a number of strategies to provide safety and ease-of-use on bot
 - [https://sylabs.io/](https://sylabs.io/)
 - [https://github.com/sylabs/singularity](https://github.com/sylabs/singularity)
 - [documentation](https://sylabs.io/docs/)
-- [paper](https://sylabs.io/assets/white-papers/2018_Year-End_White_Paper_FINAL.pdf)
+- [paper](/papers/Singularity_2018_Year-End_White_Paper_FINAL.pdf)
 - [examples](https://github.com/sylabs/examples)
+- [Singularity and HPC](https://singularity.lbl.gov/docs-hpc)
+- [Singularity Container Workflows for Compute](http://www.hpcadvisorycouncil.com/events/2019/stanford-workshop/pdf/DayOne_Thursday_14Feb_2019/G_Kurtzer_Sylabs_Singularity_Thursday_02142019.pdf)

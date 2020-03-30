@@ -87,7 +87,7 @@ balenaEngine is a new container engine purpose-built for embedded and IoT use ca
 - [https://www.balena.io/engine/](https://www.balena.io/engine/)
 - [**Report**](/reports/balena-engine.md)
 
-## Micro VMs / Micro-services
+## Micro VMs / Micro-services / Unikernels
 ### Istio
 <img src="https://istio.io/img/logo.png" height="100"></br>
 <img src="https://img.shields.io/github/stars/istio/istio">

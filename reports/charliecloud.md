@@ -55,4 +55,4 @@ Charliecloud can be installed from sources and is available using a variety of d
 - [https://hpc.github.io/charliecloud/index.html](https://hpc.github.io/charliecloud/index.html)
 - [https://github.com/hpc/charliecloud](https://github.com/hpc/charliecloud)
 - [https://www.usenix.org/system/files/login/articles/login_fall17_03_priedhorsky.pdf](https://www.usenix.org/system/files/login/articles/login_fall17_03_priedhorsky.pdf)
-- [paper](/papers/3126908.3126925.pdf)
+- [paper](/papers/CharlieCloud.pdf)
