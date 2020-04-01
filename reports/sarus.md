@@ -42,9 +42,7 @@ container, HPC, OCI
 - Sarus is installed on the HPC and it requires root in order to set Sarus as a root-owned SUID program
 
 ### Available Tools
-- SingularityCE: Singularity Community Edition is 100% open source, BSD licensed software
-- SingularityPro
-- Singularity Desktop (macOS)
+
 
 ### 3rd Party Integration
 - [GPU support](https://sarus.readthedocs.io/en/stable/user/user_guide.html#nvidia-gpu-support)
@@ -57,4 +55,6 @@ container, HPC, OCI
 ### Information
 - [https://github.com/eth-cscs/sarus](https://github.com/eth-cscs/sarus)
 - [paper](http://www.hpcadvisorycouncil.com/events/2019/swiss-workshop/pdf/030419/K_Mariotti_CSCS_SARUS_OCI_ContainerRuntime_04032019.pdf)
+- [paper](https://link.springer.com/book/10.1007/978-3-030-34356-9)
 - [documentation](https://sarus.readthedocs.io/en/stable/)
+- [ISC High Performance 2019](https://link.springer.com/chapter/10.1007%2F978-3-030-34356-9_5)

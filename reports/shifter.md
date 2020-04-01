@@ -60,8 +60,12 @@ Components:
 
 ### Information
 - [https://github.com/NERSC/shifter](https://github.com/NERSC/shifter)
+- [wiki](https://github.com/NERSC/shifter/wiki)
 - [https://www.nersc.gov/research-and-development/user-defined-images/](https://www.nersc.gov/research-and-development/user-defined-images/)
 - [https://docs.nersc.gov/programming/shifter/overview/](https://docs.nersc.gov/programming/shifter/overview/)
-- [paper](/papers/cug2015udi.pdf)
+- [How to use](https://docs.nersc.gov/programming/shifter/how-to-use/)
+- [paper](https://www.nersc.gov/assets/Uploads/cug2015udi.pdf)
+- [Shifter Containers for HPC](/papers/Shifter_Containers_for_HPC.pdf)
 - [tutorial](https://github.com/NERSC/Shifter-Tutorial)
 - [slides](https://drive.google.com/drive/folders/1LWuV6W5Gx6mdAuZAKCZvad5exf9we10f)
+- [shifter docker containers for hpc](https://www.slideshare.net/insideHPC/shifter-docker-containers-for-hpc)
