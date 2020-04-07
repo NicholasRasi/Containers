@@ -87,14 +87,23 @@ balenaEngine is a new container engine purpose-built for embedded and IoT use ca
 - [https://www.balena.io/engine/](https://www.balena.io/engine/)
 - [**Report**](/reports/balena-engine.md)
 
-## Micro VMs / Micro-services / Unikernels
-### Istio
-<img src="https://istio.io/img/logo.png" height="100"></br>
-<img src="https://img.shields.io/github/stars/istio/istio">
 
-Istio is an open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data.
-- [https://istio.io/](https://istio.io/)
-- [**Report**](/reports/istio.md)
+### Eliot
+<img src="https://raw.githubusercontent.com/ernoaapa/eliot/master/docs/eliot-logo-medium.png" height="100"></br>
+<img src="https://img.shields.io/github/stars/ernoaapa/eliot">
+
+Eliot is lightweight Kubernetes like system to manage containerized applications on IoT devices with an emphasis on simplicity, minimality, and usability. The goal is to give a simple way to develop, deploy and manage applications running in IoT device. Comparing to other traditional platforms, Eliot takes modern technologies from cloud to enable more DevOps way of working in IoT world.
+- https://docs.eliot.run/
+
+
+## Micro VMs / Micro-services / Unikernels
+### Firecracker
+<img src="https://firecracker-microvm.github.io/img/firecracker-logo@3x.png" height="100"></br>
+<img src="https://img.shields.io/github/stars/firecracker-microvm/firecracker">
+
+Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models.
+- [https://firecracker-microvm.github.io/](https://firecracker-microvm.github.io/)
+- [**Report**](/reports/firecracker.md)
 
 ### OSv
 <img src="http://osv.io/images/logo.jpg" height="100"></br>
@@ -111,14 +120,6 @@ OSv is the versatile modular unikernel designed to run unmodified Linux applicat
 MirageOS is a library operating system that constructs unikernels for secure, high-performance network applications across a variety of cloud computing and mobile platforms
 - [https://mirage.io/](https://mirage.io/)
 - [**Report**](/reports/mirageos.md)
-
-### Firecracker
-<img src="https://firecracker-microvm.github.io/img/firecracker-logo@3x.png" height="100"></br>
-<img src="https://img.shields.io/github/stars/hpc/charliecloud">
-
-Firecracker is an open source virtualization technology that is purpose-built for creating and managing secure, multi-tenant container and function-based services that provide serverless operational models.
-- [https://firecracker-microvm.github.io/](https://firecracker-microvm.github.io/)
-- [**Report**](/reports/firecracker.md)
 
 ### Fedora CoreOS (previously CoreOS)
 <img src="https://getfedora.org/static/images/logo-inline-coreos.png" height="100"></br>
@@ -203,6 +204,14 @@ Kata Containers is an open source community working to build a secure container 
 - [https://katacontainers.io/](https://katacontainers.io/)
 
 ## Kubernetes / Distribution
+### Istio
+<img src="https://istio.io/img/logo.png" height="100"></br>
+<img src="https://img.shields.io/github/stars/istio/istio">
+
+Istio is an open platform for providing a uniform way to integrate microservices, manage traffic flow across microservices, enforce policies and aggregate telemetry data.
+- [https://istio.io/](https://istio.io/)
+- [**Report**](/reports/istio.md)
+
 ### Rancher
 <img src="https://rancher.com/imgs/rancher-logo-horiz-color.png" height="100"></br>
 <img src="https://img.shields.io/github/stars/rancher/rancher">
