@@ -8,7 +8,7 @@
 ### Containers alternative
 4. unikernel
 
-#### Cloud
+#### 1. Cloud
 Containers power microservices architecture that have their benefits for application services. Any application built with microservices-based methodology tends to have a chunk of small services that can be packaged in containers. All those services maintain their life cycle along with service-specific requirements of independent development, granular scaling and patching and fault remediation.
 
 ##### Containers for Cloud
@@ -21,7 +21,7 @@ Containers power microservices architecture that have their benefits for applica
 - ...
 
 
-#### HPC
+#### 2. HPC
 HPC leverages distributed compute and storage resources to solve complex issues with large data volumes. HPC clusters are commonly known as Supercomputers. Complex algorithms are used on large data sets to generate insights. HPC systems use a large set of CPU or GPU in parallel architecture that creates enough of a computing resource pool to execute complex mathematical algorithms.
 
 HPC are mainly used for scientific research and big data analysis.
@@ -46,11 +46,11 @@ HPC are mainly used for scientific research and big data analysis.
 - incompatibilities with existing scheduling and resource manager paradigms
 - HPC is not the appropriate use-case or interest for the Docker community
 
-##### Parallelism with HPC containers
+##### Parallelism and HPC containers
 Jobs are dispatched to containers using a workload manager / resource manager (such as Slurm, SGE). Some container technologies provide native support for MPI.
 
 
-#### IoT
+#### 3. IoT
  IoT, refers to network of physical devices collecting and sharing data.
 
 ##### Containers for IoT
@@ -65,18 +65,6 @@ Jobs are dispatched to containers using a workload manager / resource manager (s
 - heavyweight container runtime not suitable for IoT devices with few hardware resources
 - not designed to reduce the network bandwidth consumption
 
-
-#### Unikernel
-A unikernel is a type of microservices environment that contains absolutely everything required to run a particular piece of software—including not just the software code itself, but also the operating system code necessary to host it. Plus, everything that is not strictly necessary for hosting the app is stripped out of the unikernel.
-
-##### Unikernel Advantages
-- self-hosted, portable and minimalist
-- very small overhead
-- suitable for cloud application: unikernel as an alternative to VMs
-- suitable for IoT: unikernel provides everything needed to deploy the software for an IoT device
-- suitable for device drivers: drivers can be supplied on an as-needed basis inside portable environments
-- suitable for on-demand computing: fast to boot
-
 ### References
 - [Containers and HPC: Mutually Beneficial ](https://containerjournal.com/topics/container-management/containers-hpc-mutually-beneficial/)
 - [Intel HPC developer conference](https://wilsonweb.fnal.gov/slides/hpc-containers-singularity-introductory.pdf)
@@ -84,5 +72,4 @@ A unikernel is a type of microservices environment that contains absolutely ever
 - [Singularity on HPC](https://singularity.lbl.gov/docs-hpc)
 - [https://hpc.github.io/charliecloud/index.html](https://hpc.github.io/charliecloud/index.html)
 - [Why the Internet of Things Needs Docker Containers](https://containerjournal.com/features/why-the-internet-of-things-needs-docker-containers/)
-- [Unikernels Use Cases: IoT, the Cloud and More](https://containerjournal.com/features/unikernels-use-cases-iot-cloud/)
 - [user namespaces](https://sylabs.io/guides/3.5/admin-guide/user_namespace.html)
