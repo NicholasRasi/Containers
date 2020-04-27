@@ -47,7 +47,7 @@
 
 #### 3.2.3 Singularity
 
-#### 3.2.4 [Comparison Non App](benchmark/nonapp/ResultViewer.ipynb) 
+#### 3.2.4 [Comparison Non App](benchmark/nonapp/results/ResultViewer.ipynb) 
 #### 3.2.5 [Comparison App](benchmark/app/ResultViewer.ipynb)
 ### 3.3 [HPC Comparison](3.3_Comparing_Performances_HPC.md)
 ### 3.4 [IoT Comparison](3.4_Comparing_Solution_IoT.md)
