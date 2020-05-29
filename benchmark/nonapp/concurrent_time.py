@@ -16,6 +16,7 @@ stdout = stderr = ""
 
 parser = argparse.ArgumentParser()
 parser.add_argument("container")
+parser.add_argument("--image", type=str, required=True)
 parser.add_argument("--max", type=int, default=100)
 args = parser.parse_args()
 
@@ -37,23 +38,20 @@ with csv_out:
     for i in range(args.max):
         if args.container == "singularity":
             print("for singularity...")
-            cmd = "singularity instance start docker://ubuntu:18.04 n" + str(i)
+            cmd = "singularity instance start " + args.image + " n" + str(i)
         elif args.container == "singularity_sif":
             # use a sif file
             print("for singularity sif...")
-            cmd = "singularity instance start singularity/ubuntu18.04.sif n" + str(i)
-        elif args.container == "charliecloud":
-            print("for charliecloud...")
-            cmd = "ch-run charliecloud/myubuntu -- echo -n 'm' | nc -q0 127.0.0.1 1234"
+            cmd = "singularity instance start " + args.image + " n" + str(i)
         elif args.container == "docker":
             print("for docker...")
-            cmd = "sudo docker run -dit ubuntu:18.04"
-        elif args.container == "sarus":
-            print("for sarus")
-            cmd = "sarus run ubuntu:18.04 echo -n 'm' | nc -q0 127.0.0.1 1234"
+            cmd = "sudo docker run -dit " + args.image
         elif args.container == "podman":
             print("for podman")
-            cmd = "podman run -dit ubuntu:18.04"
+            cmd = "podman run -dit " + args.image
+        elif args.container == "balena":
+            print("for balena")
+            cmd = "sudo balena-engine run -dit " + args.image
 
         start = time.time()
         container_p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -81,15 +79,12 @@ with csv_out:
         if args.container == "singularity" or args.container == "singularity_sif":
             print("for singularity...")
             cmd = "singularity instance stop n" + str(i)
-        elif args.container == "charliecloud":
-            print("for charliecloud...")
-            cmd = "ch-run charliecloud/myubuntu -- echo -n 'm' | nc -q0 127.0.0.1 1234"
         elif args.container == "docker":
             print("for docker...")
             cmd = "sudo docker stop " + container
-        elif args.container == "sarus":
-            print("for sarus")
-            cmd = "sarus run ubuntu:18.04 echo -n 'm' | nc -q0 127.0.0.1 1234"
+        elif args.container == "balena":
+            print("for balena...")
+            cmd = "sudo balena-engine stop " + container
         elif args.container == "podman":
             print("for podman")
             cmd = "podman stop " + container
@@ -104,6 +99,30 @@ with csv_out:
 
         # write data
         writer.writerow([time.time(), "stop", end - start])
+
+        # convert bytes to string
+        stdout = stdout.decode("utf-8")
+        stderr = stderr.decode("utf-8")
+        print(str(i) + ": " + stdout + " " + stderr)
+
+    print("rm all containers")
+    for i, container in enumerate(concurrent_containers):
+        if args.container == "docker":
+            print("rm all docker containers...")
+            cmd = "sudo docker rm " + container
+        elif args.container == "podman":
+            print("rm all podman containers...")
+            cmd = "podman rm " + container
+        elif args.container == "balena":
+            print("rm all balena containers...")
+            cmd = "sudo balena-engine rm " + container
+        else:
+            break
+
+        container_p = subprocess.Popen(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+
+        # wait for the output
+        stdout, stderr = container_p.communicate()
 
         # convert bytes to string
         stdout = stdout.decode("utf-8")

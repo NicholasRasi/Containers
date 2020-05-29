@@ -14,6 +14,7 @@ complete_durations = []
 
 parser = argparse.ArgumentParser()
 parser.add_argument("container")
+parser.add_argument("--image", type=str, required=True)
 parser.add_argument("--repeat", type=int, default=10)
 args = parser.parse_args()
 
@@ -42,23 +43,26 @@ with csv_out:
         if args.container == "singularity":
             # pull image from docker
             print("for singularity...")
-            cmd = "singularity exec docker://ubuntu:18.04 echo -n 'm' | nc -q0 127.0.0.1 1234"
+            cmd = "singularity exec " + args.image + " echo -n 'm' | nc -q0 127.0.0.1 1234"
         elif args.container == "singularity_sif":
             # use a sif file
             print("for singularity sif...")
-            cmd = "singularity exec singularity/ubuntu18.04.sif echo -n 'm' | nc -q0 127.0.0.1 1234"
+            cmd = "singularity exec " + args.image + " echo -n 'm' | nc -q0 127.0.0.1 1234"
         elif args.container == "charliecloud":
             print("for charliecloud...")
-            cmd = "ch-run charliecloud/myubuntu -- echo -n 'm' | nc -q0 127.0.0.1 1234"
+            cmd = "ch-run " + args.image + " -- echo -n 'm' | nc -q0 127.0.0.1 1234"
         elif args.container == "docker":
             print("for docker...")
-            cmd = "sudo docker run -it ubuntu:18.04 echo -n 'm' | nc -q0 127.0.0.1 1234"
+            cmd = "sudo docker run -it " + args.image + " echo -n 'm' | nc -q0 127.0.0.1 1234"
         elif args.container == "sarus":
             print("for sarus")
-            cmd = "sarus run ubuntu:18.04 echo -n 'm' | nc -q0 127.0.0.1 1234"
+            cmd = "sarus run " + args.image + " echo -n 'm' | nc -q0 127.0.0.1 1234"
         elif args.container == "podman":
             print("for podman")
-            cmd = "podman run ubuntu:18.04 echo -n 'm' | nc -q0 127.0.0.1 1234"
+            cmd = "podman run " + args.image + " echo -n 'm' | nc -q0 127.0.0.1 1234"
+        elif args.container == "balena":
+            print("for balena")
+            cmd = "sudo balena-engine run " + args.image + " echo -n 'm' | nc -q0 127.0.0.1 1234"
 
         # start the process (non blocking)
         start = time.time()
