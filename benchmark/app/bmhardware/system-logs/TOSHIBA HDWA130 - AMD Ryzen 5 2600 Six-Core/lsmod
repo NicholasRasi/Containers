@@ -1,0 +1,95 @@
+Module                  Size  Used by
+veth                   28672  0
+xt_conntrack           16384  1
+xt_MASQUERADE          20480  1
+nf_conntrack_netlink    45056  0
+nfnetlink              16384  2 nf_conntrack_netlink
+xfrm_user              36864  1
+xfrm_algo              16384  1 xfrm_user
+xt_addrtype            16384  2
+iptable_filter         16384  1
+iptable_nat            16384  1
+nf_nat                 40960  2 iptable_nat,xt_MASQUERADE
+nf_conntrack          139264  4 xt_conntrack,nf_nat,nf_conntrack_netlink,xt_MASQUERADE
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         16384  1 nf_conntrack
+libcrc32c              16384  2 nf_conntrack,nf_nat
+bpfilter               32768  0
+br_netfilter           28672  0
+bridge                176128  1 br_netfilter
+stp                    16384  1 bridge
+llc                    16384  2 bridge,stp
+ccm                    20480  6
+aufs                  262144  0
+overlay               118784  0
+snd_hda_codec_hdmi     61440  1
+snd_hda_codec_realtek   118784  1
+snd_hda_codec_generic    81920  1 snd_hda_codec_realtek
+edac_mce_amd           32768  0
+ledtrig_audio          16384  2 snd_hda_codec_generic,snd_hda_codec_realtek
+nls_iso8859_1          16384  1
+snd_hda_intel          49152  2
+snd_intel_nhlt         20480  1 snd_hda_intel
+snd_hda_codec         131072  4 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec_realtek
+snd_hda_core           90112  5 snd_hda_codec_generic,snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek
+snd_hwdep              20480  1 snd_hda_codec
+mt7601u               110592  0
+snd_pcm               106496  4 snd_hda_codec_hdmi,snd_hda_intel,snd_hda_codec,snd_hda_core
+snd_seq_midi           20480  0
+mac80211              851968  1 mt7601u
+snd_seq_midi_event     16384  1 snd_seq_midi
+snd_rawmidi            36864  1 snd_seq_midi
+snd_seq                69632  2 snd_seq_midi,snd_seq_midi_event
+kvm                   659456  0
+snd_seq_device         16384  3 snd_seq,snd_seq_midi,snd_rawmidi
+irqbypass              16384  1 kvm
+cfg80211              712704  2 mt7601u,mac80211
+snd_timer              36864  2 snd_seq,snd_pcm
+wmi_bmof               16384  0
+k10temp                16384  0
+snd                    90112  15 snd_hda_codec_generic,snd_seq,snd_seq_device,snd_hda_codec_hdmi,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek,snd_timer,snd_pcm,snd_rawmidi
+libarc4                16384  1 mac80211
+soundcore              16384  1 snd
+joydev                 28672  0
+input_leds             16384  0
+ccp                    94208  0
+mac_hid                16384  0
+nvidia_uvm            913408  0
+sch_fq_codel           20480  6
+parport_pc             40960  1
+ppdev                  24576  0
+lp                     20480  0
+parport                53248  3 parport_pc,lp,ppdev
+ip_tables              32768  2 iptable_filter,iptable_nat
+x_tables               40960  5 xt_conntrack,iptable_filter,xt_addrtype,ip_tables,xt_MASQUERADE
+autofs4                45056  2
+hid_generic            16384  0
+usbhid                 57344  0
+hid                   131072  2 usbhid,hid_generic
+nvidia_drm             49152  3
+nvidia_modeset       1122304  5 nvidia_drm
+nvidia              19517440  184 nvidia_uvm,nvidia_modeset
+crct10dif_pclmul       16384  1
+crc32_pclmul           16384  0
+ghash_clmulni_intel    16384  0
+aesni_intel           372736  4
+drm_kms_helper        184320  1 nvidia_drm
+syscopyarea            16384  1 drm_kms_helper
+sysfillrect            16384  1 drm_kms_helper
+aes_x86_64             20480  1 aesni_intel
+sysimgblt              16384  1 drm_kms_helper
+fb_sys_fops            16384  1 drm_kms_helper
+crypto_simd            16384  1 aesni_intel
+cryptd                 24576  2 crypto_simd,ghash_clmulni_intel
+drm                   491520  6 drm_kms_helper,nvidia_drm
+glue_helper            16384  1 aesni_intel
+ipmi_devintf           20480  0
+i2c_piix4              28672  0
+r8169                  81920  0
+ipmi_msghandler       106496  2 ipmi_devintf,nvidia
+ahci                   40960  2
+realtek                20480  1
+libahci                32768  1 ahci
+wmi                    32768  1 wmi_bmof
+gpio_amdpt             20480  0
+gpio_generic           20480  1 gpio_amdpt

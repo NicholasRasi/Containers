@@ -1,0 +1,269 @@
+Slot:	00:00.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) Root Complex [1450]
+SVendor:	Micro-Star International Co., Ltd. [MSI] [1462]
+SDevice:	Family 17h (Models 00h-0fh) Root Complex [7a34]
+
+Slot:	00:00.2
+Class:	IOMMU [0806]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) I/O Memory Management Unit [1451]
+SVendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+SDevice:	Family 17h (Models 00h-0fh) I/O Memory Management Unit [1451]
+
+Slot:	00:01.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge [1452]
+
+Slot:	00:01.3
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) PCIe GPP Bridge [1453]
+Driver:	pcieport
+
+Slot:	00:02.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge [1452]
+
+Slot:	00:03.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge [1452]
+
+Slot:	00:03.1
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) PCIe GPP Bridge [1453]
+Driver:	pcieport
+
+Slot:	00:04.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge [1452]
+
+Slot:	00:07.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge [1452]
+
+Slot:	00:07.1
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B [1454]
+Driver:	pcieport
+
+Slot:	00:08.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-1fh) PCIe Dummy Host Bridge [1452]
+
+Slot:	00:08.1
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) Internal PCIe GPP Bridge 0 to Bus B [1454]
+Driver:	pcieport
+
+Slot:	00:14.0
+Class:	SMBus [0c05]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH SMBus Controller [790b]
+SVendor:	Micro-Star International Co., Ltd. [MSI] [1462]
+SDevice:	FCH SMBus Controller [7a34]
+Rev:	59
+Driver:	piix4_smbus
+Module:	i2c_piix4
+Module:	sp5100_tco
+
+Slot:	00:14.3
+Class:	ISA bridge [0601]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH LPC Bridge [790e]
+SVendor:	Micro-Star International Co., Ltd. [MSI] [1462]
+SDevice:	FCH LPC Bridge [7a34]
+Rev:	51
+
+Slot:	00:18.0
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 0 [1460]
+
+Slot:	00:18.1
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 1 [1461]
+
+Slot:	00:18.2
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 2 [1462]
+
+Slot:	00:18.3
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 3 [1463]
+Driver:	k10temp
+Module:	k10temp
+
+Slot:	00:18.4
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 4 [1464]
+
+Slot:	00:18.5
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 5 [1465]
+
+Slot:	00:18.6
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 6 [1466]
+
+Slot:	00:18.7
+Class:	Host bridge [0600]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) Data Fabric: Device 18h; Function 7 [1467]
+
+Slot:	03:00.0
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	300 Series Chipset USB 3.1 xHCI Controller [43bb]
+SVendor:	ASMedia Technology Inc. [1b21]
+SDevice:	300 Series Chipset USB 3.1 xHCI Controller [1142]
+Rev:	02
+ProgIf:	30
+Driver:	xhci_hcd
+
+Slot:	03:00.1
+Class:	SATA controller [0106]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	300 Series Chipset SATA Controller [43b7]
+SVendor:	ASMedia Technology Inc. [1b21]
+SDevice:	300 Series Chipset SATA Controller [1062]
+Rev:	02
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+
+Slot:	03:00.2
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Device [43b2]
+Rev:	02
+Driver:	pcieport
+
+Slot:	20:00.0
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	300 Series Chipset PCIe Port [43b4]
+Rev:	02
+Driver:	pcieport
+
+Slot:	20:01.0
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	300 Series Chipset PCIe Port [43b4]
+Rev:	02
+Driver:	pcieport
+
+Slot:	20:04.0
+Class:	PCI bridge [0604]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	300 Series Chipset PCIe Port [43b4]
+Rev:	02
+Driver:	pcieport
+
+Slot:	21:00.0
+Class:	PCI bridge [0604]
+Vendor:	ASMedia Technology Inc. [1b21]
+Device:	ASM1083/1085 PCIe to PCI Bridge [1080]
+Rev:	03
+
+Slot:	23:00.0
+Class:	Ethernet controller [0200]
+Vendor:	Realtek Semiconductor Co., Ltd. [10ec]
+Device:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [8168]
+SVendor:	Micro-Star International Co., Ltd. [MSI] [1462]
+SDevice:	RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller [7a34]
+Rev:	15
+Driver:	r8169
+Module:	r8169
+
+Slot:	26:00.0
+Class:	VGA compatible controller [0300]
+Vendor:	NVIDIA Corporation [10de]
+Device:	GM204 [GeForce GTX 970] [13c2]
+SVendor:	ZOTAC International (MCO) Ltd. [19da]
+SDevice:	GM204 [GeForce GTX 970] [1366]
+Rev:	a1
+Driver:	nvidia
+Module:	nvidiafb
+Module:	nouveau
+Module:	nvidia_drm
+Module:	nvidia
+
+Slot:	26:00.1
+Class:	Audio device [0403]
+Vendor:	NVIDIA Corporation [10de]
+Device:	GM204 High Definition Audio Controller [0fbb]
+SVendor:	ZOTAC International (MCO) Ltd. [19da]
+SDevice:	GM204 High Definition Audio Controller [1366]
+Rev:	a1
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+
+Slot:	27:00.0
+Class:	Non-Essential Instrumentation [1300]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Zeppelin/Raven/Raven2 PCIe Dummy Function [145a]
+SVendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+SDevice:	Zeppelin/Raven/Raven2 PCIe Dummy Function [145a]
+
+Slot:	27:00.2
+Class:	Encryption controller [1080]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) Platform Security Processor [1456]
+SVendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+SDevice:	Family 17h (Models 00h-0fh) Platform Security Processor [1456]
+Driver:	ccp
+Module:	ccp
+
+Slot:	27:00.3
+Class:	USB controller [0c03]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Zeppelin USB 3.0 Host controller [145f]
+SVendor:	Micro-Star International Co., Ltd. [MSI] [1462]
+SDevice:	Zeppelin USB 3.0 Host controller [7a34]
+ProgIf:	30
+Driver:	xhci_hcd
+
+Slot:	28:00.0
+Class:	Non-Essential Instrumentation [1300]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Zeppelin/Renoir PCIe Dummy Function [1455]
+SVendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+SDevice:	Zeppelin/Renoir PCIe Dummy Function [1455]
+
+Slot:	28:00.2
+Class:	SATA controller [0106]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	FCH SATA Controller [AHCI mode] [7901]
+SVendor:	Micro-Star International Co., Ltd. [MSI] [1462]
+SDevice:	FCH SATA Controller [AHCI mode] [7a34]
+Rev:	51
+ProgIf:	01
+Driver:	ahci
+Module:	ahci
+
+Slot:	28:00.3
+Class:	Audio device [0403]
+Vendor:	Advanced Micro Devices, Inc. [AMD] [1022]
+Device:	Family 17h (Models 00h-0fh) HD Audio Controller [1457]
+SVendor:	Micro-Star International Co., Ltd. [MSI] [1462]
+SDevice:	Family 17h (Models 00h-0fh) HD Audio Controller [fa34]
+Driver:	snd_hda_intel
+Module:	snd_hda_intel
+

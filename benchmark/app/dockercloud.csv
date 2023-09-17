@@ -1,0 +1,9 @@
+SQLite - Threads / Copies: 1,LIB,88.461
+SQLite - Threads / Copies: 32,LIB,514.087
+BlogBench - Test: Read,HIB,1492035
+BlogBench - Test: Write,HIB,10263
+Redis - Test: GET,HIB,2128325.29
+Redis - Test: SET,HIB,1525206.33
+Apache Cassandra - Test: Mixed 1:1,HIB,30424
+NGINX Benchmark - Static Web Page Serving,HIB,20032.6
+Apache Benchmark - Static Web Page Serving,HIB,23656.54

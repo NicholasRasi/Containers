@@ -1,0 +1,254 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v9.6.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>singularityhardware</Title>
+    <LastModified>2020-05-18 15:20:37</LastModified>
+    <TestClient>Phoronix Test Suite v9.6.0 (Nittedal)</TestClient>
+    <Description>AMD Ryzen 5 2600 Six-Core testing with a MSI B350 PC MATE (MS-7A34) v2.0 (A.LQ BIOS) and EFI VGA on Ubuntu 19.10 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+    <Hardware>Processor: AMD Ryzen 5 2600 Six-Core @ 3.40GHz (6 Cores / 12 Threads), Motherboard: MSI B350 PC MATE (MS-7A34) v2.0 (A.LQ BIOS), Memory: 32GB, Disk: 3001GB TOSHIBA HDWA130 + 240GB KINGSTON SA400S3 + 120GB ADATA SU650 + 1000GB Seagate ST1000DM003-1ER1 + 256GB SAMSUNG SSD PM85, Graphics: EFI VGA</Hardware>
+    <Software>OS: Ubuntu 19.10, Kernel: 5.3.0-51-generic (x86_64), Desktop: GNOME Shell, Compiler: GCC 9.2.1 20191008, File-System: ext4, Screen Resolution: 800x600</Software>
+    <User>ubuntu</User>
+    <TimeStamp>2020-05-18 14:35:08</TimeStamp>
+    <TestClientVersion>9.6.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-offload-targets=nvptx-none,hsa --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib=auto --with-tune=generic --without-cuda-driver -v","disk-scheduler":"MQ-DEADLINE","disk-mount-options":"errors=remount-ro,nodev,nosuid,relatime,rw","cpu-scaling-governor":"acpi-cpufreq ondemand","cpu-microcode":"0x800820d","python":"+ Python 3.7.5","security":"itlb_multihit: Not affected + l1tf: Not affected + mds: Not affected + meltdown: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl and seccomp + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Full AMD retpoline IBPB: conditional STIBP: disabled RSB filling + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/tiobench-1.3.1</Identifier>
+    <Title>Threaded I/O Tester</Title>
+    <AppVersion>20170503</AppVersion>
+    <Arguments>-k3 -k1 -f 32 -t 4</Arguments>
+    <Description>Test: Read - Size Per Thread: 32MB - Thread Count: 4</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>8449.322</Value>
+        <RawString>9568.663:8696.243:8103.317:8648.064:9640.732:8877.792:8816.641:4567.84:8351.82:9112.915:8120.797:8887.037</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"},"test-run-times":"94.84:94.68:95.31:94.54:94.82:94.96:94.19:95.99:96.51:95.82:95.68:94.40"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/tiobench-1.3.1</Identifier>
+    <Title>Threaded I/O Tester</Title>
+    <AppVersion>20170503</AppVersion>
+    <Arguments>-k3 -k2 -k1 -f 32 -t 4</Arguments>
+    <Description>Test: Write - Size Per Thread: 32MB - Thread Count: 4</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>1.386</Value>
+        <RawString>1.396:1.374:1.388</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2"},"test-run-times":"92.71:94.21:93.27"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>ADD -b 6</Arguments>
+    <Description>Type: Add - Benchmark: Floating Point</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>27840.12</Value>
+        <RawString>27841.03:27843.94:27835.39</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"66.44:66.44:66.51"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>COPY -b 6</Arguments>
+    <Description>Type: Copy - Benchmark: Floating Point</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>24647.03</Value>
+        <RawString>24655.5:24640.6:24644.99</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"66.53:66.44:66.51"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ramspeed-1.4.3</Identifier>
+    <Title>RAMspeed SMP</Title>
+    <AppVersion>3.5.0</AppVersion>
+    <Arguments>AVERAGE -b 6</Arguments>
+    <Description>Type: Average - Benchmark: Floating Point</Description>
+    <Scale>MB/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>25872.86</Value>
+        <RawString>25823.64:25886.06:25908.87</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -march=native"},"test-run-times":"66.62:66.43:66.44"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-7zip-1.7.1</Identifier>
+    <Title>7-Zip Compression</Title>
+    <AppVersion>16.02</AppVersion>
+    <Arguments></Arguments>
+    <Description>Compress Speed Test</Description>
+    <Scale>MIPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>33030</Value>
+        <RawString>32976:33496:32619</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-pipe -lpthread"},"test-run-times":"37.77:37.50:37.87"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-1.11.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>1.1.1</AppVersion>
+    <Arguments></Arguments>
+    <Description>RSA 4096-bit Performance</Description>
+    <Scale>Signs Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>1182.8</Value>
+        <RawString>1182.9:1182.7:1182.7</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-pthread -m64 -O3 -lssl -lcrypto -ldl"},"test-run-times":"20.05:20.04:20.04"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/pybench-1.1.3</Identifier>
+    <Title>PyBench</Title>
+    <AppVersion>2018-02-16</AppVersion>
+    <Arguments></Arguments>
+    <Description>Total For Average Test Times</Description>
+    <Scale>Milliseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>1198</Value>
+        <RawString>1203:1196:1194</RawString>
+        <JSON>{"test-run-times":"27.12:26.94:26.97"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>create_files.exe target</Arguments>
+    <Description>Test: Create Files</Description>
+    <Scale>us Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>16.241001</Value>
+        <RawString>16.252679:16.324946:16.145377</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm"},"test-run-times":"5.54:5.48:5.36"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>create_threads.exe</Arguments>
+    <Description>Test: Create Threads</Description>
+    <Scale>us Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>13.746421</Value>
+        <RawString>13.899803:13.930798:13.408661</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm"},"test-run-times":"5.01:5.01:5.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>launch_programs.exe</Arguments>
+    <Description>Test: Launch Programs</Description>
+    <Scale>us Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>50.592422</Value>
+        <RawString>51.708221:49.629211:50.439835</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm"},"test-run-times":"5.01:5.01:5.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>create_processes.exe</Arguments>
+    <Description>Test: Create Processes</Description>
+    <Scale>us Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>26.454926</Value>
+        <RawString>25.758743:25.141239:26.988983:28.119087:25.479794:26.140213:27.189255:27.029514:27.000904:26.550293:25.241375:27.089119:24.898052:27.909279:26.288033</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm"},"test-run-times":"5.01:5.01:5.01:5.01:5.01:5.01:5.01:5.01:5.01:5.01:5.01:5.01:5.01:5.01:5.01"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/osbench-1.0.1</Identifier>
+    <Title>OSBench</Title>
+    <AppVersion></AppVersion>
+    <Arguments>mem_alloc.exe</Arguments>
+    <Description>Test: Memory Allocations</Description>
+    <Scale>Ns Per Event</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130 - AMD Ryzen 5 2600 Six-Core</Identifier>
+        <Value>83.073298</Value>
+        <RawString>83.236933:82.975864:83.007097</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm"},"test-run-times":"5.04:5.03:5.04"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

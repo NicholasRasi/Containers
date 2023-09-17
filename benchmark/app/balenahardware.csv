@@ -1,0 +1,16 @@
+Threaded I/O Tester - Test: Read - Size Per Thread: 32MB - Thread Count: 4,HIB,7797.894
+Threaded I/O Tester - Test: Write - Size Per Thread: 32MB - Thread Count: 4,HIB,1.317
+RAMspeed SMP - Type: Add - Benchmark: Floating Point,HIB,27743.25
+RAMspeed SMP - Type: Copy - Benchmark: Floating Point,HIB,24635.2
+RAMspeed SMP - Type: Average - Benchmark: Floating Point,HIB,25876.07
+Sockperf - Test: Throughput,HIB,466556
+Sockperf - Test: Latency Ping Pong,LIB,5.815
+Sockperf - Test: Latency Under Load,LIB,56.593
+7-Zip Compression - Compress Speed Test,HIB,32243
+OpenSSL - RSA 4096-bit Performance,HIB,1183.2
+PyBench - Total For Average Test Times,LIB,1690
+OSBench - Test: Create Files,LIB,18.565144
+OSBench - Test: Create Threads,LIB,14.395515
+OSBench - Test: Launch Programs,LIB,48.51977
+OSBench - Test: Create Processes,LIB,26.740233
+OSBench - Test: Memory Allocations,LIB,83.681742

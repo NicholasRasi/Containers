@@ -1,0 +1,182 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v9.6.0-->
+<PhoronixTestSuite>
+  <Generated>
+    <Title>podmancloud</Title>
+    <LastModified>2020-05-14 16:24:46</LastModified>
+    <TestClient>Phoronix Test Suite v9.6.0 (Nittedal)</TestClient>
+    <Description>AMD Ryzen 5 2600 Six-Core testing with a MSI B350 PC MATE (MS-7A34) v2.0 (A.LQ BIOS) and EFI VGA on Ubuntu 19.10 via the Phoronix Test Suite.</Description>
+  </Generated>
+  <System>
+    <Identifier>TOSHIBA HDWA130</Identifier>
+    <Hardware>Processor: AMD Ryzen 5 2600 Six-Core @ 3.40GHz (6 Cores / 12 Threads), Motherboard: MSI B350 PC MATE (MS-7A34) v2.0 (A.LQ BIOS), Memory: 32GB, Disk: 3001GB TOSHIBA HDWA130 + 240GB KINGSTON SA400S3 + 120GB ADATA SU650 + 1000GB Seagate ST1000DM003-1ER1 + 256GB SAMSUNG SSD PM85, Graphics: EFI VGA</Hardware>
+    <Software>OS: Ubuntu 19.10, Kernel: 5.3.0-51-generic (x86_64), Compiler: GCC 9.2.1 20191008, File-System: ext4, Screen Resolution: 800x600</Software>
+    <User>root</User>
+    <TimeStamp>2020-05-14 14:28:53</TimeStamp>
+    <TestClientVersion>9.6.0</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=x86_64-linux-gnu --disable-vtable-verify --disable-werror --enable-bootstrap --enable-checking=release --enable-clocale=gnu --enable-default-pie --enable-gnu-unique-object --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,gm2 --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-multilib --enable-nls --enable-offload-targets=nvptx-none,hsa --enable-plugin --enable-shared --enable-threads=posix --host=x86_64-linux-gnu --program-prefix=x86_64-linux-gnu- --target=x86_64-linux-gnu --with-abi=m64 --with-arch-32=i686 --with-default-libstdcxx-abi=new --with-gcc-major-version-only --with-multilib-list=m32,m64,mx32 --with-target-system-zlib=auto --with-tune=generic --without-cuda-driver -v","disk-scheduler":"MQ-DEADLINE","disk-mount-options":"errors=remount-ro,relatime,rw","cpu-scaling-governor":"acpi-cpufreq ondemand","cpu-microcode":"0x800820d","java":"OpenJDK Runtime Environment (build 11.0.7+10-post-Ubuntu-2ubuntu219.10)","security":"itlb_multihit: Not affected + l1tf: Not affected + mds: Not affected + meltdown: Not affected + spec_store_bypass: Mitigation of SSB disabled via prctl and seccomp + spectre_v1: Mitigation of usercopy\/swapgs barriers and __user pointer sanitization + spectre_v2: Mitigation of Full AMD retpoline IBPB: conditional STIBP: disabled RSB filling + tsx_async_abort: Not affected"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/sqlite-2.1.0</Identifier>
+    <Title>SQLite</Title>
+    <AppVersion>3.30.1</AppVersion>
+    <Arguments>1</Arguments>
+    <Description>Threads / Copies: 1</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130</Identifier>
+        <Value>87.751</Value>
+        <RawString>87.812:87.318:88.124</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lz -lm -ldl -lpthread"},"test-run-times":"87.81:87.32:88.12"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/sqlite-2.1.0</Identifier>
+    <Title>SQLite</Title>
+    <AppVersion>3.30.1</AppVersion>
+    <Arguments>32</Arguments>
+    <Description>Threads / Copies: 32</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130</Identifier>
+        <Value>512.260</Value>
+        <RawString>513.801:513.834:509.146</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -lz -lm -ldl -lpthread"},"test-run-times":"513.80:513.83:509.15"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/blogbench-1.1.0</Identifier>
+    <Title>BlogBench</Title>
+    <AppVersion>1.1</AppVersion>
+    <Arguments>READ</Arguments>
+    <Description>Test: Read</Description>
+    <Scale>Final Score</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130</Identifier>
+        <Value>1722332</Value>
+        <RawString>1913123:1740094:1676538:1621973:1665973:1712334:1690582:1743914:1736459</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -pthread"},"test-run-times":"333.63:334.53:335.09:338.29:334.21:337.07:336.54:335.86:336.77"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/blogbench-1.1.0</Identifier>
+    <Title>BlogBench</Title>
+    <AppVersion>1.1</AppVersion>
+    <Arguments>WRITE</Arguments>
+    <Description>Test: Write</Description>
+    <Scale>Final Score</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130</Identifier>
+        <Value>10840</Value>
+        <RawString>10733:10851:10937</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -pthread"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/redis-1.2.0</Identifier>
+    <Title>Redis</Title>
+    <AppVersion>5.0.5</AppVersion>
+    <Arguments>-t get</Arguments>
+    <Description>Test: GET</Description>
+    <Scale>Requests Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130</Identifier>
+        <Value>2227006.25</Value>
+        <RawString>2197802.25:2159827.25:2364066.25:2183406:2272727.25:2227171.5:2173913:2237136.5</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-MM -MT -g3 -fvisibility=hidden -O3"},"test-run-times":"10.58:10.57:10.46:10.57:10.47:10.47:10.56:10.47"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/redis-1.2.0</Identifier>
+    <Title>Redis</Title>
+    <AppVersion>5.0.5</AppVersion>
+    <Arguments>-t set</Arguments>
+    <Description>Test: SET</Description>
+    <Scale>Requests Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130</Identifier>
+        <Value>1524478.12</Value>
+        <RawString>1540832.12:1517450.75:1515151.5</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-MM -MT -g3 -fvisibility=hidden -O3"},"test-run-times":"10.67:10.77:10.77"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/cassandra-1.0.3</Identifier>
+    <Title>Apache Cassandra</Title>
+    <AppVersion>3.11.4</AppVersion>
+    <Arguments>MIXED_1_1</Arguments>
+    <Description>Test: Mixed 1:1</Description>
+    <Scale>Op/s</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130</Identifier>
+        <Value>31306</Value>
+        <RawString>33624:31834:31971:30859:29282:33417:32036:30861:30933:28246</RawString>
+        <JSON>{"test-run-times":"151.34:141.58:157.59:136.16:152.01:149.84:136.91:142.90:141.35:130.57"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/nginx-1.2.2</Identifier>
+    <Title>NGINX Benchmark</Title>
+    <AppVersion>1.9.9</AppVersion>
+    <Arguments></Arguments>
+    <Description>Static Web Page Serving</Description>
+    <Scale>Requests Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130</Identifier>
+        <Value>28985.36</Value>
+        <RawString>29110.88:28728.15:29117.05</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lpthread -lcrypt -lz -O3 -march=native"},"test-run-times":"70.19:71.01:70.10"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/apache-1.7.2</Identifier>
+    <Title>Apache Benchmark</Title>
+    <AppVersion>2.4.29</AppVersion>
+    <Arguments></Arguments>
+    <Description>Static Web Page Serving</Description>
+    <Scale>Requests Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>TOSHIBA HDWA130</Identifier>
+        <Value>24496.95</Value>
+        <RawString>24576.69:24455.14:24459.02</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-shared -fPIC -O2 -pthread"},"test-run-times":"41.37:41.57:41.57"}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

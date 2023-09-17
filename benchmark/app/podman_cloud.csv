@@ -1,8 +1,0 @@
-SQLite - Threads / Copies: 1,LIB,87.682
-SQLite - Threads / Copies: 32,LIB,524.572
-OpenSSL - RSA 4096-bit Performance,HIB,1188.7
-Redis - Test: GET,HIB,2249036.42
-Redis - Test: SET,HIB,1583815.98
-PyBench - Total For Average Test Times,LIB,1798
-NGINX Benchmark - Static Web Page Serving,HIB,28953.07
-Apache Benchmark - Static Web Page Serving,HIB,23942.04
